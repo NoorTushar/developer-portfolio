@@ -1,7 +1,13 @@
+.header {
+  background-color: #fff8f3;
+  padding: 10px 0;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title {
