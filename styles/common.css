@@ -7,6 +7,7 @@
 :root {
   --dark-1: #181818;
   --dark-2: #474747;
+  --dark-3: #757575;
   --orange: #fd6e0a;
   --open-sans: "Open Sans", sans-serif;
 }
@@ -44,10 +45,16 @@ body {
   color: #fff;
   cursor: pointer;
   background-color: var(--orange);
-  border: none;
+  border: 1px solid var(--orange);
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+
+.btn-secondary {
+  background-color: #fff8f3;
+  color: var(--orange);
+  border: 1px solid var(--orange);
 }
