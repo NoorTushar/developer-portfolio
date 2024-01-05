@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+:root {
+  --dark-1: #181818;
+  --orange: #fd6e0a;
+  --open-sans: "Open Sans", sans-serif;
+}
+
+/* font-family: 'Open Sans', sans-serif; */
