@@ -1,5 +1,15 @@
 /* main section start */
 
 /* about section */
+.about {
+  padding: 150px;
+  margin: 150px 0;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
 
 /* main section end */
