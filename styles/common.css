@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* font-family: 'Open Sans', sans-serif; */
+:root {
+  --dark-1: #181818;
+  --dark-2: #474747;
+  --orange: #fd6e0a;
+  --open-sans: "Open Sans", sans-serif;
+}
 
 img {
   max-width: 100%;
@@ -22,10 +29,25 @@ li {
   list-style: none;
 }
 
-:root {
-  --dark-1: #181818;
-  --orange: #fd6e0a;
-  --open-sans: "Open Sans", sans-serif;
+body {
+  font-family: var(--open-sans);
 }
 
-/* font-family: 'Open Sans', sans-serif; */
+.primary-color {
+  color: var(--orange);
+}
+
+.btn-primary {
+  padding: 15px 35px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  background-color: var(--orange);
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
