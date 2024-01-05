@@ -1,5 +1,8 @@
 /* main section start */
-
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
 /* about section */
 .about {
   padding: 150px;
@@ -10,6 +13,29 @@
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.info-title {
+  color: var(--dark-3);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.info-description {
+  color: var(--dark-2);
+  font-size: 20px;
+  font-weight: 700;
 }
 
 /* main section end */
