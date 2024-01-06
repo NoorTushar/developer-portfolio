@@ -72,4 +72,51 @@ main {
 }
 /* What I do section end */
 
+/* My Resume Start */
+.my-resume {
+  padding-bottom: 150px;
+}
+.my-resume .section-title {
+  margin-bottom: 100px;
+}
+
+.resume-column-container {
+  display: flex;
+  gap: 24px;
+}
+.resume-column-container > * {
+  flex: 1;
+}
+
+.resume-column-title {
+  color: var(--dark-2);
+  font-size: 30px;
+  font-weight: 700;
+}
+.resume {
+  padding: 30px;
+  padding-left: 0px;
+}
+.resume-title {
+  color: var(--dark-2, #474747);
+  font-size: 25px;
+  font-weight: 700;
+}
+.education-institute {
+  color: var(--dark-3, #757575);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 0 20px;
+}
+
+.my-resume .skill-description {
+  max-width: 480px;
+}
+
+.resume-button {
+  text-align: center;
+  margin-top: 25px;
+}
+/* My Resume End */
+
 /* main section end */

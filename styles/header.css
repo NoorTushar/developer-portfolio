@@ -9,7 +9,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
+  padding: 20px 0;
   margin: 0 200px;
 }
 
@@ -23,10 +23,10 @@ nav {
 nav > ul {
   display: flex;
   align-items: center;
+  gap: 50px;
 }
 
 nav li {
-  margin-right: 50px;
 }
 nav li a {
   color: var(--dark-2);
